@@ -1,0 +1,84 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDBCB4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8ADA0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DAA520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F472B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B9D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background celebration -->
+  <circle cx="150" cy="150" r="140" fill="rgba(168, 85, 247, 0.1)" opacity="0.8"/>
+  
+  <!-- Confetti -->
+  <rect x="80" y="60" width="4" height="4" fill="#FF6B9D" transform="rotate(45 82 62)"/>
+  <rect x="220" y="80" width="4" height="4" fill="#A855F7" transform="rotate(30 222 82)"/>
+  <rect x="260" y="120" width="4" height="4" fill="#F472B6" transform="rotate(60 262 122)"/>
+  <rect x="40" y="140" width="4" height="4" fill="#FF6B9D" transform="rotate(15 42 142)"/>
+  <rect x="70" y="200" width="4" height="4" fill="#A855F7" transform="rotate(75 72 202)"/>
+  <rect x="240" y="200" width="4" height="4" fill="#F472B6" transform="rotate(45 242 202)"/>
+  
+  <!-- Hair -->
+  <path d="M120 70 C110 60, 130 50, 150 55 C170 50, 190 55, 210 60 C220 65, 215 80, 210 90 L205 100 C200 105, 195 110, 185 115 L150 120 C140 115, 130 110, 125 100 L120 90 C115 80, 115 75, 120 70 Z" fill="url(#hairGradient2)"/>
+  
+  <!-- Face -->
+  <ellipse cx="150" cy="100" rx="22" ry="28" fill="url(#skinGradient2)"/>
+  
+  <!-- Eyes (happy/closed) -->
+  <path d="M140 95 Q145 92 150 95" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <path d="M150 95 Q155 92 160 95" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Eyebrows -->
+  <path d="M138 88 Q145 86 152 88" stroke="#B8860B" stroke-width="1.5" fill="none"/>
+  <path d="M148 88 Q155 86 162 88" stroke="#B8860B" stroke-width="1.5" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="102" rx="1.5" ry="2" fill="#F8ADA0"/>
+  
+  <!-- Mouth (big smile) -->
+  <path d="M142 108 Q150 118 158 108" stroke="#E74C3C" stroke-width="2.5" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="150" cy="170" rx="32" ry="42" fill="url(#dressGradient)"/>
+  
+  <!-- Arms (raised in celebration) -->
+  <ellipse cx="125" cy="145" rx="10" ry="22" fill="url(#dressGradient)" transform="rotate(-45 125 145)"/>
+  <ellipse cx="175" cy="145" rx="10" ry="22" fill="url(#dressGradient)" transform="rotate(45 175 145)"/>
+  
+  <!-- Hands -->
+  <circle cx="110" cy="130" r="7" fill="url(#skinGradient2)"/>
+  <circle cx="190" cy="130" r="7" fill="url(#skinGradient2)"/>
+  
+  <!-- Celebration stars -->
+  <path d="M105 125 L107 130 L112 130 L108 133 L110 138 L105 135 L100 138 L102 133 L98 130 L103 130 Z" fill="#FFD700"/>
+  <path d="M185 125 L187 130 L192 130 L188 133 L190 138 L185 135 L180 138 L182 133 L178 130 L183 130 Z" fill="#FFD700"/>
+  
+  <!-- Trophy -->
+  <rect x="140" y="220" width="20" height="25" fill="#FFD700"/>
+  <ellipse cx="150" cy="220" rx="12" ry="8" fill="#FFD700"/>
+  <rect x="145" y="245" width="10" height="8" fill="#8B4513"/>
+  <ellipse cx="150" cy="253" rx="8" ry="3" fill="#8B4513"/>
+  <text x="150" y="232" font-family="Arial, sans-serif" font-size="8" fill="#B8860B" text-anchor="middle">1°</text>
+  
+  <!-- Money bills floating -->
+  <rect x="60" y="100" width="15" height="8" fill="#27AE60" opacity="0.8" transform="rotate(20 67 104)"/>
+  <text x="67" y="106" font-family="Arial, sans-serif" font-size="6" fill="#FFFFFF" text-anchor="middle">$</text>
+  
+  <rect x="220" y="160" width="15" height="8" fill="#27AE60" opacity="0.8" transform="rotate(-15 227 164)"/>
+  <text x="227" y="166" font-family="Arial, sans-serif" font-size="6" fill="#FFFFFF" text-anchor="middle">$</text>
+  
+  <!-- Success symbols -->
+  <circle cx="250" y="100" r="8" fill="#27AE60"/>
+  <path d="M245 100 L248 103 L255 96" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Diamond shapes -->
+  <path d="M50 180 L55 175 L60 180 L55 185 Z" fill="#A855F7" opacity="0.7"/>
+  <path d="M240 240 L245 235 L250 240 L245 245 Z" fill="#F472B6" opacity="0.7"/>
+</svg>

@@ -19,17 +19,22 @@
     <!-- Header Section -->
     <header class="hero-section">
         <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <h1 class="hero-title">Seu chefe nunca mais vai definir o horário que você busca seu filho na escola.</h1>
                     <p class="hero-subtitle">O Método que está tirando mulheres da CLT para trabalhar de casa, construindo um negócio digital de sucesso e, finalmente, vivendo uma vida de liberdade.</p>
                     <div class="hero-description">
-                        <p>Imagine esta cena: O despertador toca, mas você não precisa se levantar correndo. Você toma seu café da manhã com calma, sem a pressão de pegar trânsito ou bater o cartão. À tarde, você não está presa a um escritório. Você está na academia, buscando seu filho na escola, ou simplesmente lendo um livro. Essa não é a vida de uma privilegiada. É a vida de uma mulher que entendeu que a internet não é só para redes sociais, mas para construir um negócio que gera renda real, todos os dias.</p>
+                        <p>Imagine esta cena: O despertador toca, mas você não precisa se levantar correndo. Você toma seu café da manhã com calma, sem a pressão de pegar trânsito ou bater o cartão. À tarde, você não está presa a um escritório. Você está na academia, buscando seu filho na escola, ou simplesmente lendo um livro.</p>
                     </div>
                     <div class="hero-cta">
                         <a href="#precos" class="btn btn-primary btn-lg cta-button">
                             <i class="fas fa-rocket me-2"></i>Começar Agora
                         </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="{{ url_for('static', filename='images/hero-woman.svg') }}" alt="Mulher trabalhando com liberdade" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -150,7 +155,7 @@
                         <p class="section-subtitle">Veja como o MMD transformou a vida de mulheres que ousaram dar o primeiro passo</p>
                     </div>
                     
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-md-6 mb-4">
                             <div class="testimonial-card">
                                 <div class="testimonial-content">
@@ -167,10 +172,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <div class="col-md-6 mb-4">
-                            <div class="testimonial-card">
+                            
+                            <div class="testimonial-card mt-4">
                                 <div class="testimonial-content">
                                     <i class="fas fa-quote-left quote-icon"></i>
                                     <p>"Saí da correria corporativa e construí um negócio que me permite viajar e trabalhar de onde quiser. A liberdade que sempre sonhei agora é real."</p>
@@ -185,6 +188,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="col-md-6 text-center">
+                            <img src="{{ url_for('static', filename='images/success-woman.svg') }}" alt="Mulher celebrando sucesso" class="img-fluid success-image">
                         </div>
                     </div>
                 </div>
@@ -292,28 +299,31 @@
     <!-- CTA Final Section -->
     <section id="cta-final" class="final-cta-section">
         <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <h2 class="section-title">Onde Você Estará Daqui a 3 Meses?</h2>
                     <div class="final-description">
                         <p>A rotina de trabalhar para os outros, com uma vida de agenda cheia e sem tempo para você ou sua família, vai continuar te consumindo? Ou você vai dar o primeiro passo para ter o controle do seu próprio tempo e construir a vida que merece?</p>
-                        <p>A escolha é sua. Clique no botão da sua opção preferida e comece a viver a liberdade que o mundo digital pode te dar.</p>
+                        <p class="mb-4">A escolha é sua. Clique no botão da sua opção preferida e comece a viver a liberdade que o mundo digital pode te dar.</p>
                     </div>
                     
                     <div class="final-cta-buttons">
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 mb-3">
+                        <div class="row">
+                            <div class="col-12 mb-3">
                                 <button class="btn btn-primary btn-lg w-100 cta-button">
                                     <i class="fas fa-rocket me-2"></i>GARANTIR ACESSO AGORA
                                 </button>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-12 mb-3">
                                 <button class="btn btn-secondary btn-lg w-100 cta-button premium-button">
                                     <i class="fas fa-crown me-2"></i>QUERO O PACOTE COMPLETO AGORA
                                 </button>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="{{ url_for('static', filename='images/freedom-woman.svg') }}" alt="Mulher com liberdade e família" class="img-fluid freedom-image">
                 </div>
             </div>
         </div>

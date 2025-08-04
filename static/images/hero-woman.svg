@@ -1,0 +1,79 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDBCB4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8ADA0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="laptopGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8E8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D3D3D3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="clothesGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="200" cy="150" r="120" fill="rgba(255, 107, 157, 0.1)" opacity="0.8"/>
+  
+  <!-- Hair -->
+  <path d="M150 80 C140 70, 160 60, 180 65 C200 60, 220 65, 240 70 C250 75, 245 90, 240 100 L235 110 C230 115, 225 120, 215 125 L180 130 C170 125, 160 120, 155 110 L150 100 C145 90, 145 85, 150 80 Z" fill="url(#hairGradient)"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="110" rx="25" ry="30" fill="url(#skinGradient)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="192" cy="105" rx="3" ry="2" fill="#2C3E50"/>
+  <ellipse cx="208" cy="105" rx="3" ry="2" fill="#2C3E50"/>
+  <ellipse cx="193" cy="104" rx="1" ry="1" fill="#FFFFFF"/>
+  <ellipse cx="209" cy="104" rx="1" ry="1" fill="#FFFFFF"/>
+  
+  <!-- Eyebrows -->
+  <path d="M188 100 Q195 98 198 100" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+  <path d="M202 100 Q209 98 212 100" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="112" rx="1.5" ry="2" fill="#F8ADA0"/>
+  
+  <!-- Mouth -->
+  <path d="M195 118 Q200 122 205 118" stroke="#E74C3C" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="180" rx="35" ry="45" fill="url(#clothesGradient)"/>
+  
+  <!-- Arms -->
+  <ellipse cx="165" cy="165" rx="12" ry="25" fill="url(#clothesGradient)" transform="rotate(-20 165 165)"/>
+  <ellipse cx="235" cy="165" rx="12" ry="25" fill="url(#clothesGradient)" transform="rotate(20 235 165)"/>
+  
+  <!-- Hands -->
+  <circle cx="155" cy="185" r="8" fill="url(#skinGradient)"/>
+  <circle cx="245" cy="185" r="8" fill="url(#skinGradient)"/>
+  
+  <!-- Laptop -->
+  <rect x="180" y="190" width="40" height="25" rx="2" fill="url(#laptopGradient)"/>
+  <rect x="182" y="192" width="36" height="18" rx="1" fill="#2C3E50"/>
+  <rect x="184" y="194" width="32" height="14" rx="1" fill="#3498DB"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="260" cy="195" rx="6" ry="8" fill="#8B4513"/>
+  <ellipse cx="260" cy="193" rx="5" ry="2" fill="#D2691E"/>
+  <path d="M266 195 Q270 195 270 200 Q270 205 266 205" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="80" r="3" fill="#F472B6" opacity="0.6"/>
+  <circle cx="280" cy="100" r="2" fill="#A855F7" opacity="0.6"/>
+  <circle cx="320" cy="160" r="2.5" fill="#FF6B9D" opacity="0.6"/>
+  <circle cx="80" cy="180" r="2" fill="#F472B6" opacity="0.6"/>
+  
+  <!-- Heart shapes -->
+  <path d="M340 120 C340 115, 345 115, 345 120 C345 115, 350 115, 350 120 C350 125, 345 130, 345 135 C345 130, 340 125, 340 120 Z" fill="#FF6B9D" opacity="0.7"/>
+  
+  <!-- Money symbols -->
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="16" fill="#27AE60" opacity="0.8">$</text>
+  <text x="320" y="220" font-family="Arial, sans-serif" font-size="14" fill="#27AE60" opacity="0.8">$</text>
+</svg>
