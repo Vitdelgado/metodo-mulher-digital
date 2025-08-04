@@ -1,0 +1,114 @@
+### **Criação de Landing Page: Método Mulher no Digital (MMD)**
+
+**Objetivo:** Desenvolver uma landing page completa para o curso **Método Mulher no Digital (MMD)**. A página deve ser moderna, responsiva e substituir um vídeo de vendas.
+
+**Tecnologias:**
+
+  * HTML5 (para a estrutura)
+  * CSS3 (para o estilo e responsividade)
+
+-----
+
+### **Instruções de Design e Estrutura**
+
+1.  **Cores:** Paleta de cores feminina (tons de rosa, roxo, creme e cinza escuro).
+2.  **Fontes:** Use uma fonte elegante e de fácil leitura (`Poppins`, `Montserrat` ou `Lato`).
+3.  **Layout:** A página deve ser responsiva. Use seções bem definidas com espaçamento adequado.
+4.  **Estrutura das Seções:** Use tags HTML semânticas (`<header>`, `<section>`, `<div>`).
+
+-----
+
+### **Conteúdo da Página (Copie e Cole no HTML)**
+
+#### **1. Título e Hook (Header)**
+
+```html
+<header>
+    <h1>Seu chefe nunca mais vai definir o horário que você busca seu filho na escola.</h1>
+    <p>O Método que está tirando mulheres da CLT para trabalhar de casa, construindo um negócio digital de sucesso e, finalmente, vivendo uma vida de liberdade.</p>
+    <p>Imagine esta cena: O despertador toca, mas você não precisa se levantar correndo. Você toma seu café da manhã com calma, sem a pressão de pegar trânsito ou bater o cartão. À tarde, você não está presa a um escritório. Você está na academia, buscando seu filho na escola, ou simplesmente lendo um livro. Essa não é a vida de uma privilegiada. É a vida de uma mulher que entendeu que a internet não é só para redes sociais, mas para construir um negócio que te devolve o controle do seu tempo. Por muito tempo, nos disseram que a única forma de ter segurança financeira era seguir as regras de uma empresa. Mas, e se eu te dissesse que existe um método para <strong>parar de trocar seu tempo por salário</strong> e começar a transformar sua paixão e conhecimento em dinheiro de verdade, sem sair de casa? Eu sei o que é se sentir presa. Mas eu também sei o que é conquistar a liberdade de viver uma vida com propósito. E foi exatamente por isso que eu criei o <strong>Método Mulher no Digital (MMD)</strong>. Continue lendo para descobrir como usar este método para dar adeus à sua rotina atual e construir a vida que você sempre sonhou.</p>
+</header>
+```
+
+#### **2. Módulos do Curso**
+
+```html
+<section id="modulos">
+    <h2>O Seu Mapa Completo Para a Liberdade</h2>
+    <p>O <strong>MMD</strong> é o único treinamento que te pega pela mão, passo a passo, e te ensina a vender infoprodutos do zero. Em 11 módulos práticos e diretos, você vai:</p>
+    <ul>
+        <li><strong>Módulo 1:</strong> <strong>Boas-Vindas e Suporte:</strong> Entenda como usar o treinamento e tenha acesso ao nosso grupo exclusivo de alunas.</li>
+        <li><strong>Módulo 2:</strong> <strong>O Mindset do Sucesso:</strong> Transforme a sua mentalidade para encarar o mercado digital com confiança.</li>
+        <li><strong>Módulo 3:</strong> <strong>O Jogo dos Infoprodutos:</strong> Descubra o que são infoprodutos e quais as 3 estratégias de venda mais lucrativas.</li>
+        <li><strong>Módulo 4:</strong> <strong>Minerando o Tesouro:</strong> Aprenda a encontrar o produto perfeito para vender.</li>
+        <li><strong>Módulo 5:</strong> <strong>Criando Seu Próprio Produto:</strong> Siga um método simples para criar um infoproduto do zero.</li>
+        <li><strong>Módulo 6:</strong> <strong>A Máquina de Vendas:</strong> Entenda as etapas do funil de vendas e como precificar seu produto.</li>
+        <li><strong>Módulo 7:</strong> <strong>Página de Vendas que Converte:</strong> Crie uma página de vendas do zero com copy persuasiva.</li>
+        <li><strong>Módulo 8:</strong> <strong>Anúncios no Meta:</strong> Aprenda a criar campanhas no Facebook e Instagram Ads.</li>
+        <li><strong>Módulo 9:</strong> <strong>Anúncios no Google:</strong> Descubra como aparecer para quem já está procurando seu produto.</li>
+        <li><strong>Módulo 10:</strong> <strong>Conquistando a Gringa:</strong> Expanda seus negócios para o mercado americano e receba em dólar.</li>
+        <li><strong>Módulo 11:</strong> <strong>Bônus Exclusivos:</strong> Acesse as ferramentas e estratégias que vão acelerar seus resultados.</li>
+    </ul>
+</section>
+```
+
+#### **3. Depoimentos (Prova Social)**
+
+```html
+<section id="depoimentos">
+    <h2>A Jornada de Outras Mulheres</h2>
+    <div>
+        <p>Aqui você pode inserir depoimentos de alunas. Use a imagem delas e um texto que demonstre a transformação que o MMD proporcionou.</p>
+    </div>
+</section>
+```
+
+#### **4. Seção de Preços (Com 2 Opções)**
+
+```html
+<section id="precos">
+    <h2>Escolha a Sua Jornada Para a Liberdade</h2>
+    
+    <div class="oferta-container">
+        <div class="oferta">
+            <h3>Opção 1: MMD Essencial</h3>
+            <p>Este pacote te dá acesso imediato e vitalício aos 11 módulos do Método Mulher no Digital. Você terá o mapa completo para construir seu negócio do zero e começar a trabalhar de casa, com flexibilidade total.</p>
+            <p><strong>Inclui:</strong> Todos os 11 módulos do MMD.</p>
+            <p><strong>Preço:</strong> R$ [INSERIR O VALOR AQUI]</p>
+            <button>GARANTIR ACESSO AGORA</button>
+        </div>
+
+        <div class="oferta">
+            <h3>Opção 2: MMD Premium</h3>
+            <p>Além do curso completo, este pacote te entrega as ferramentas certas para acelerar seus resultados. Não é só aprender; é ter em mãos um arsenal que faz o trabalho pesado por você.</p>
+            <p><strong>Inclui:</strong> Todos os 11 módulos do MMD + os bônus exclusivos.</p>
+            <p><strong>Preço:</strong> R$ [INSERIR O VALOR AQUI]</p>
+            <button>QUERO O PACOTE COMPLETO AGORA</button>
+        </div>
+    </div>
+</section>
+```
+
+#### **5. Garantia**
+
+```html
+<section id="garantia">
+    <h2>Sua Decisão, Nossa Garantia</h2>
+    <p>Se em 7 dias você sentir que o Método MMD não é para você, basta pedir o seu dinheiro de volta. Você tem 100% de garantia de satisfação.</p>
+</section>
+```
+
+#### **6. Chamada Final para Ação**
+
+```html
+<section id="cta-final">
+    <h2>Onde Você Estará Daqui a 3 Meses?</h2>
+    <p>A rotina de trabalhar para os outros, com uma vida de agenda cheia e sem tempo para você ou sua família, vai continuar te consumindo? Ou você vai dar o primeiro passo para ter o controle do seu próprio tempo e construir a vida que merece?</p>
+    <p>A escolha é sua. Clique no botão da sua opção preferida e comece a viver a liberdade que o mundo digital pode te dar.</p>
+    
+    <div class="oferta-container">
+        <button>GARANTIR ACESSO AGORA</button>
+        <button>QUERO O PACOTE COMPLETO AGORA</button>
+    </div>
+</section>
+```
