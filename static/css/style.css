@@ -162,50 +162,53 @@ h1, h2, h3, h4, h5, h6 {
 
 .modules-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     margin-top: 3rem;
 }
 
 .module-item {
     display: flex;
-    align-items: flex-start;
-    padding: 2rem;
+    align-items: center;
+    padding: 1rem;
     background: linear-gradient(135deg, var(--white) 0%, var(--cream) 100%);
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .module-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .module-number {
     background: linear-gradient(135deg, var(--primary-pink), var(--secondary-purple));
     color: var(--white);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: var(--font-weight-bold);
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     flex-shrink: 0;
 }
 
 .module-content h4 {
     color: var(--dark-gray);
     font-weight: var(--font-weight-semibold);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
 }
 
 .module-content p {
     color: var(--dark-gray);
     margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 /* Testimonials Section */
@@ -475,13 +478,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .module-item {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        text-align: left;
     }
     
     .module-number {
-        margin-right: 0;
-        margin-bottom: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0;
     }
     
     .premium-card {
