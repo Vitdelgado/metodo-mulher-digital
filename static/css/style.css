@@ -193,38 +193,36 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    filter: drop-shadow(0 10px 30px rgba(255, 107, 157, 0.3));
-    animation: float 6s ease-in-out infinite;
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-large);
 }
 
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
+.hero-image-center {
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-medium);
+    margin: 1.5rem auto;
+    display: block;
 }
+
+
 
 .success-image {
     max-width: 80%;
     height: auto;
-    filter: drop-shadow(0 8px 25px rgba(168, 85, 247, 0.3));
-    animation: bounce 4s ease-in-out infinite;
-}
-
-@keyframes bounce {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-large);
+    object-fit: cover;
 }
 
 .freedom-image {
     max-width: 85%;
     height: auto;
-    filter: drop-shadow(0 8px 25px rgba(244, 114, 182, 0.3));
-    animation: sway 5s ease-in-out infinite;
-}
-
-@keyframes sway {
-    0%, 100% { transform: translateX(0px) rotate(0deg); }
-    25% { transform: translateX(-10px) rotate(-2deg); }
-    75% { transform: translateX(10px) rotate(2deg); }
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-large);
+    object-fit: cover;
 }
 
 /* Modules Section */
@@ -456,6 +454,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
 }
 
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 0.5rem;
+}
+
+.strikethrough {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.strikethrough i {
+    color: #999;
+}
+
 .premium-button {
     background: linear-gradient(135deg, var(--secondary-purple), var(--primary-pink));
 }
@@ -607,6 +622,12 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 90%;
         margin: 2rem auto;
         display: block;
+    }
+    
+    .hero-image-center {
+        max-width: 280px;
+        height: 180px;
+        margin: 1rem auto;
     }
     
     .hero-section .row {
